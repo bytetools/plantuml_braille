@@ -17,6 +17,14 @@ On Linux, you can find the list of tables in: `/usr/share/liblouis/tables/`
 $ ./plantuml_braille text_test.puml > braille_test.puml
 ```
 
+Or the `exe.sh` script can be used to copy the output to the clipboard.
+(This does only work using X in Linux)
+The text version of the PUML file should be called `text_diagram.puml`.
+
+```bash
+$ ./exe.sh
+```
+
 ## Requirements
 
 * `python` (v3.6+)
